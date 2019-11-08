@@ -1,0 +1,110 @@
+body {
+    /*Background */
+    background-color: rgb(255, 254, 254);
+    background-image: url("background1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
+
+.Backgroundpicture {
+    background-color: slategrey;
+}
+
+
+/*Paragraph background */
+
+.Paragraphbackgroundcolour {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+
+.Paragraphframe {
+    background-color: rgb(43, 53, 57, 0.7);
+    padding: 5px 5px 5px 5px;
+    border: 2px solid black;
+    color: white;
+    text-align: left;
+}
+
+
+/* Font */
+
+.Fontfamilyforparaph {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+/* h1 Style */
+
+h1 {
+    background-color: rgb(30, 180, 250, 0.507);
+    padding: 5px 5px 5px 5px;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-flexbox;
+}
+
+
+/* h2 Style */
+
+h2 {
+    background-color: rgba(2, 180, 250, 0.507);
+    padding: 5px 5px 5px 5px;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-flexbox;
+}
+
+.Logo {
+    text-align: center;
+}
+
+.Weblinkbrackets {
+    color: white;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.Weblinksource {
+    color: white;
+}
+
+
+/* HREF */
+
+a:link,
+a:visited {
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+.column {
+    float: left;
+    width: 33.333%;
+    padding: 5px;
+}
+
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
